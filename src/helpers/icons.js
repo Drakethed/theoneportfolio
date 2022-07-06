@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-export const Icons = () => {
+const Icons = () => {
   return library.add(
     faTrash,
     faSignOutAlt,
@@ -24,3 +24,5 @@ export const Icons = () => {
     faLock
   );
 };
+
+export default Icons;
